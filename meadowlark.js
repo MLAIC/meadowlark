@@ -18,7 +18,7 @@ app.get('/', (req, res) => res.render('home'))
 //app.get('/about', (req, res) => res.render('about'))
 
 app.get('/about', (req, res) => {
-  res.render('about', { fortune: fortune.getfortune() })
+  res.render('about', { fortune: fortune.getFortune() })
 })
 
 // custom 404 page
